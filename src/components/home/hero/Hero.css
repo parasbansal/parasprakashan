@@ -1,0 +1,16 @@
+.hero-slide{
+  background: #000;
+}
+.hero-image{
+  padding-top: 0rem;
+}
+.hero-image > img {
+  margin: 0 auto;
+}
+.hero-text-section{
+  color: #ffffff;
+}
+
+.table-section{
+  margin: 0 auto
+}
