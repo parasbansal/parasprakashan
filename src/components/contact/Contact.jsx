@@ -39,7 +39,7 @@ const renderMarkers = (map, maps) => {
 const Contact = (props) => {
 
   return (
-    <div className="Contact mt-5">
+    <div className="Contact mt-5" id="contact">
       <div className="container">
         <div className="card border-dark">
           <div className="card-header bg-dark text-white">

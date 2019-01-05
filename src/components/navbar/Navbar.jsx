@@ -5,13 +5,11 @@ import './Navbar.css'
 
 import Home from '../home/Home'
 import About from '../about/About'
-import Contact from '../contact/Contact'
 
-import { books } from '../../data'
+import books from '../../data/books.json'
 
 const HomePage = () => <Home books={books} />
 const AboutPage = () => <About />
-const ContactPage = () => <Contact />
 
 class Navbar extends Component {
 
@@ -40,7 +38,7 @@ class Navbar extends Component {
 										<NavLink exact className="nav-link" to="/about" activeClassName="active"><i className="fa fa-building" /> About</NavLink>
 									</li>
 									<li className="nav-item">
-										<NavLink exact className="nav-link" to="/contact" activeClassName="active"><i className="fa fa-phone" /> Contact</NavLink>
+										<a href="/#contact" className="nav-link"><i className="fa fa-phone" /> Contact</a>
 									</li>
 								</ul>
 							</div>
@@ -50,7 +48,6 @@ class Navbar extends Component {
 
 					<Route path="/" exact component={HomePage} />
 					<Route path="/about/" component={AboutPage} />
-					<Route path="/contact/" component={ContactPage} />
 				</div>
 			</Router>
 		)
