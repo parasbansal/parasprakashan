@@ -6,8 +6,8 @@ import Contact from '../contact/Contact'
 const Home = (props) => {
   return (
     <div className="Home">
-      <Hero slides={props.books} />
-      <Books books={props.books} />
+      <Hero books={props.books} labManuals={props.labManuals} />
+      <Books books={props.books} labManuals={props.labManuals} />
       <Contact />
     </div>
   );

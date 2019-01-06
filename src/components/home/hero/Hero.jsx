@@ -60,14 +60,18 @@ const renderCarouselItems = slides => slides.map((x, i) => {
 })
 
 const Hero = (props) => {
+
+	const {books, labManuals} = props;
+	const allBooks = labManuals.concat(books);
+
 	return (
 		<div className="hero d-none d-md-block d-lg-block d-xl-block shadow">
 			<div id="heroCarouselIndicators" className="carousel slide" data-ride="carousel">
 				<ol className="carousel-indicators">
-					{renderIndicators(props.slides)}
+					{renderIndicators(allBooks)}
 				</ol>
 				<div className="carousel-inner">
-					{renderCarouselItems(props.slides)}
+					{renderCarouselItems(allBooks)}
 				</div>
 				<a className="carousel-control-prev" href="#heroCarouselIndicators" role="button" data-slide="prev">
 					<span className="carousel-control-prev-icon" aria-hidden="true"></span>

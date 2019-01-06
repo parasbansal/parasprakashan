@@ -6,9 +6,10 @@ import './Navbar.css'
 import Home from '../home/Home'
 import About from '../about/About'
 
+import labManuals from '../../data/lab-manuals.json'
 import books from '../../data/books.json'
 
-const HomePage = () => <Home books={books} />
+const HomePage = () => <Home books={books} labManuals={labManuals} />
 const AboutPage = () => <About />
 
 class Navbar extends Component {
