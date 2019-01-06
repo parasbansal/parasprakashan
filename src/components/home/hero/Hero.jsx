@@ -29,7 +29,7 @@ const renderCarouselItems = slides => slides.map((x, i) => {
 
 	return (
 		<div className={"carousel-item" + activeClass} key={i}>
-			<div className="hero-slide row" style={{ "backgroundImage": "url('./assets/images/bg_textures/" + (i + 1) + ".png')" }}>
+			<div className="hero-slide row" style={{ "backgroundImage": "url('./assets/images/bg_textures/" + (i + 1) + "-min.png')" }}>
 				<div className="hero-image col-lg-6">
 					<img className="d-block img-fluid" src={"./assets/images/stacked/" + x.image + ".png"} alt={x.title} />
 				</div>
