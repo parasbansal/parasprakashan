@@ -8,7 +8,7 @@ const mapData = {
     lat: 28.6606259,
     lng: 77.2974501
   },
-  zoom: 13,
+  zoom: 11,
   delhi: {
     lat: 28.6518138,
     lng: 77.2294721
