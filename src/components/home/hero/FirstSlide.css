@@ -1,0 +1,14 @@
+.first-slide-item{
+  height: 100%;
+  color: #eee;
+  background: #2a2a24;
+}
+.logo-box{
+  padding: 5rem 0 3rem 0;
+}
+.logo-box img{
+  margin: 0 auto;
+}
+.first-slide{
+  background: #2a2a24;
+}

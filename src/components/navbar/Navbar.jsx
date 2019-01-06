@@ -20,7 +20,7 @@ class Navbar extends Component {
 		return (
 			<Router>
 				<div>
-					<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+					<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 						<div className="container">
 							<a className="navbar-brand" href="localhost">
 								<img src="./assets/images/logo.png" width="30" height="30" className="d-inline-block align-top" alt="Paras Prakashan Logo" />

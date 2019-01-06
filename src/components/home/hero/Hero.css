@@ -1,3 +1,7 @@
+.hero{
+  padding-top: 56px;
+  height: 90vh;
+}
 .hero-slide{
   background: #000;
 }
