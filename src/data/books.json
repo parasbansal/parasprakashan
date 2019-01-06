@@ -110,5 +110,90 @@
         "price": "380.00"
       }
     ]
+  },
+  {
+    "image": "map_english",
+    "title": "Map Skills English",
+    "subTitle": "Atlas",
+    "tableData": [
+      {
+        "title": "Paras Map Skills",
+        "part": "IX",
+        "price": "160.00"
+      },
+      {
+        "title": "Paras Map Skills",
+        "part": "X",
+        "price": "170.00"
+      }
+    ]
+  },
+  {
+    "image": "map_hindi",
+    "title": "Map Skills Hindi",
+    "subTitle": "Atlas",
+    "tableData": [
+      {
+        "title": "पारस मानचित्र कौशल",
+        "part": "IX",
+        "price": "110.00"
+      },
+      {
+        "title": "पारस मानचित्र कौशल",
+        "part": "X",
+        "price": "110.00"
+      }
+    ]
+  },
+  {
+    "image": "home_science",
+    "title": "Home Science",
+    "subTitle": "Hindi",
+    "tableData": [
+      {
+        "title": "पारस गृह विज्ञान",
+        "part": "IX",
+        "price": "220.00"
+      },
+      {
+        "title": "पारस गृह विज्ञान",
+        "part": "X",
+        "price": "240.00"
+      }
+    ]
+  },
+  {
+    "image": "writing",
+    "title": "Writing",
+    "subTitle": "Hindi",
+    "tableData": [
+      {
+        "title": "पारस आलेखन चित्रण",
+        "part": "IX",
+        "price": "110.00"
+      },
+      {
+        "title": "पारस आलेखन चित्रण",
+        "part": "X",
+        "price": "110.00"
+      }
+    ]
+  },
+  {
+    "image": "drawing",
+    "title": "Drawing",
+    "subTitle": "Hindi",
+    "tableData": [
+      {
+        "title": "पारस मानव चित्रण",
+        "part": "IX",
+        "price": "110.00"
+      },
+      {
+        "title": "पारस स्मृति चित्रण",
+        "part": "X",
+        "price": "110.00"
+      }
+    ]
   }
 ]
