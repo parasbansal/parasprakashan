@@ -6,12 +6,12 @@
     "tableData": [
       {
         "title": "Paras Map Skills",
-        "part": "IX",
+        "class": "IX",
         "price": "160.00"
       },
       {
         "title": "Paras Map Skills",
-        "part": "X",
+        "class": "X",
         "price": "170.00"
       }
     ]
@@ -23,12 +23,12 @@
     "tableData": [
       {
         "title": "पारस मानचित्र कौशल",
-        "part": "IX",
+        "class": "IX",
         "price": "110.00"
       },
       {
         "title": "पारस मानचित्र कौशल",
-        "part": "X",
+        "class": "X",
         "price": "110.00"
       }
     ]
@@ -40,12 +40,12 @@
     "tableData": [
       {
         "title": "पारस गृह विज्ञान",
-        "part": "IX",
+        "class": "IX",
         "price": "220.00"
       },
       {
         "title": "पारस गृह विज्ञान",
-        "part": "X",
+        "class": "X",
         "price": "240.00"
       }
     ]
@@ -57,12 +57,12 @@
     "tableData": [
       {
         "title": "पारस आलेखन चित्रण",
-        "part": "IX",
+        "class": "IX",
         "price": "110.00"
       },
       {
         "title": "पारस आलेखन चित्रण",
-        "part": "X",
+        "class": "X",
         "price": "110.00"
       }
     ]
@@ -74,12 +74,12 @@
     "tableData": [
       {
         "title": "पारस मानव चित्रण",
-        "part": "IX",
+        "class": "IX",
         "price": "110.00"
       },
       {
         "title": "पारस स्मृति चित्रण",
-        "part": "X",
+        "class": "X",
         "price": "110.00"
       }
     ]

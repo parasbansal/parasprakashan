@@ -13,7 +13,7 @@ const renderTableRow = book => {
 		<tr key={book.index}>
 			<th scope="row">{book.index}</th>
 			<td>{book.title}</td>
-			<td>{book.part}</td>
+			<td>{book.class}</td>
 			<td>{book.price}</td>
 		</tr>
 	)
@@ -43,7 +43,7 @@ const renderCarouselItems = slides => slides.map((x, i) => {
 									<tr>
 										<th scope="col">#</th>
 										<th scope="col">Title</th>
-										<th scope="col">Part</th>
+										<th scope="col">Class</th>
 										<th scope="col">Price</th>
 									</tr>
 								</thead>

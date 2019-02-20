@@ -6,12 +6,12 @@
     "tableData": [
       {
         "title": "Paras Lab Manual Science",
-        "part": "IX",
+        "class": "IX",
         "price": "430.00"
       },
       {
         "title": "Paras Lab Manual Science",
-        "part": "X",
+        "class": "X",
         "price": "460.00"
       }
     ]
@@ -23,12 +23,12 @@
     "tableData": [
       {
         "title": "Paras Lab Manual Mathematics",
-        "part": "IX",
+        "class": "IX",
         "price": "430.00"
       },
       {
         "title": "Paras Lab Manual Mathematics",
-        "part": "X",
+        "class": "X",
         "price": "460.00"
       }
     ]
@@ -40,22 +40,22 @@
     "tableData": [
       {
         "title": "Paras Lab Manual Physical Education",
-        "part": "IX",
+        "class": "IX",
         "price": "260.00"
       },
       {
         "title": "Paras Lab Manual Physical Education",
-        "part": "X",
+        "class": "X",
         "price": "260.00"
       },
       {
         "title": "Paras Lab Manual Physical Education",
-        "part": "XI",
+        "class": "XI",
         "price": "330.00"
       },
       {
         "title": "Paras Lab Manual Physical Education",
-        "part": "XII",
+        "class": "XII",
         "price": "330.00"
       }
     ]
@@ -67,12 +67,12 @@
     "tableData": [
       {
         "title": "Paras Lab Manual Physics",
-        "part": "XI",
+        "class": "XI",
         "price": "330.00"
       },
       {
         "title": "Paras Lab Manual Physics",
-        "part": "XII",
+        "class": "XII",
         "price": "330.00"
       }
     ]
@@ -84,12 +84,12 @@
     "tableData": [
       {
         "title": "Paras Lab Manual Chemistry",
-        "part": "XI",
+        "class": "XI",
         "price": "330.00"
       },
       {
         "title": "Paras Lab Manual Chemistry",
-        "part": "XII",
+        "class": "XII",
         "price": "330.00"
       }
     ]
@@ -101,12 +101,12 @@
     "tableData": [
       {
         "title": "Paras Lab Manual Biology",
-        "part": "XI",
+        "class": "XI",
         "price": "380.00"
       },
       {
         "title": "Paras Lab Manual Biology",
-        "part": "XII",
+        "class": "XII",
         "price": "380.00"
       }
     ]

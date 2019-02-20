@@ -5,7 +5,7 @@ const renderTableRow = row => {
     <tr key={row.index}>
       <th scope="row">{row.index}</th>
       <td>{row.title}</td>
-      <td>{row.part}</td>
+      <td>{row.class}</td>
       <td>{row.price}</td>
     </tr>
   )
@@ -22,7 +22,7 @@ const renderTable = book => {
         <tr>
           <th scope="col">#</th>
           <th scope="col">Title</th>
-          <th scope="col">Part</th>
+          <th scope="col">Class</th>
           <th scope="col">Price</th>
         </tr>
       </thead>
