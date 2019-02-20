@@ -83,5 +83,22 @@
         "price": "110.00"
       }
     ]
+  },
+  {
+    "image": "hindi_grammar",
+    "title": "Hindi Grammar",
+    "subTitle": "Hindi",
+    "tableData": [
+      {
+        "title": "पारस हिंदी व्याकरण एवं रचना",
+        "class": "IX",
+        "price": "220.00"
+      },
+      {
+        "title": "पारस हिंदी व्याकरण एवं रचना",
+        "class": "X",
+        "price": "260.00"
+      }
+    ]
   }
 ]
