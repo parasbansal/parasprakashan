@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './App.css';
-import Navbar from './components/navbar/Navbar';
+import React, { Component } from 'react'
+import './App.css'
+import Navbar from './components/common/navbar/Navbar'
 
 class App extends Component {
   render() {
@@ -15,4 +15,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App

@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route, NavLink } from "react-router-dom"
 
 import './Navbar.css'
 
-import Home from '../home/Home'
-import About from '../about/About'
+import Home from '../../pages/home/Home'
+import About from '../../pages/about/About'
 
-import labManuals from '../../data/lab-manuals.json'
-import books from '../../data/books.json'
+import labManuals from '../../../data/lab-manuals.json'
+import books from '../../../data/books.json'
 
 const HomePage = () => <Home books={books} labManuals={labManuals} />
 const AboutPage = () => <About />
