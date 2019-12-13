@@ -7,7 +7,7 @@ const Home = (props) => {
   return (
     <div className="Home">
       <Hero books={props.books} labManuals={props.labManuals} />
-      <Books books={props.books} labManuals={props.labManuals} />
+      <Books books={props.books} labManuals={props.labManuals} projectWork={props.projectWork} />
       <Contact />
     </div>
   );

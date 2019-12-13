@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollAnimation from 'react-animate-on-scroll'
 import './Hero.css'
 
 const renderIndicators = slides => slides.map((x, i) => {
@@ -61,28 +62,30 @@ const renderCarouselItems = slides => slides.map((x, i) => {
 
 const Hero = (props) => {
 
-	const {books, labManuals} = props;
+	const { books, labManuals } = props;
 	const allBooks = labManuals.concat(books);
 
 	return (
-		<div className="hero d-none d-md-block d-lg-block d-xl-block shadow">
-			<div id="heroCarouselIndicators" className="carousel slide" data-ride="carousel">
-				<ol className="carousel-indicators">
-					{renderIndicators(allBooks)}
-				</ol>
-				<div className="carousel-inner">
-					{renderCarouselItems(allBooks)}
+		<ScrollAnimation animateIn="slideInDown" animateOnce={true}>
+			<div className="hero d-none d-md-block d-lg-block d-xl-block shadow">
+				<div id="heroCarouselIndicators" className="carousel slide" data-ride="carousel">
+					<ol className="carousel-indicators">
+						{renderIndicators(allBooks)}
+					</ol>
+					<div className="carousel-inner">
+						{renderCarouselItems(allBooks)}
+					</div>
+					<a className="carousel-control-prev" href="#heroCarouselIndicators" role="button" data-slide="prev">
+						<span className="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span className="sr-only">Previous</span>
+					</a>
+					<a className="carousel-control-next" href="#heroCarouselIndicators" role="button" data-slide="next">
+						<span className="carousel-control-next-icon" aria-hidden="true"></span>
+						<span className="sr-only">Next</span>
+					</a>
 				</div>
-				<a className="carousel-control-prev" href="#heroCarouselIndicators" role="button" data-slide="prev">
-					<span className="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span className="sr-only">Previous</span>
-				</a>
-				<a className="carousel-control-next" href="#heroCarouselIndicators" role="button" data-slide="next">
-					<span className="carousel-control-next-icon" aria-hidden="true"></span>
-					<span className="sr-only">Next</span>
-				</a>
 			</div>
-		</div>
+		</ScrollAnimation>
 	)
 }
 

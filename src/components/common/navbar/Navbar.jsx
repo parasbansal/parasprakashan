@@ -8,8 +8,9 @@ import About from '../../pages/about/About'
 
 import labManuals from '../../../data/lab-manuals.json'
 import books from '../../../data/books.json'
+import projectWork from '../../../data/project-work.json'
 
-const HomePage = () => <Home books={books} labManuals={labManuals} />
+const HomePage = () => <Home books={books} labManuals={labManuals} projectWork={projectWork} />
 const AboutPage = () => <About />
 
 class Navbar extends Component {
