@@ -11,7 +11,7 @@ class App extends Component {
           <div className="mb-5"></div>
         </div>
       </div>
-    );
+    )
   }
 }
 

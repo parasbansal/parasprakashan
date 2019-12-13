@@ -27,14 +27,14 @@ const renderMarkers = (map, maps) => {
       map,
       title: 'Paras Prakashan Head office'
     }
-  );
+  )
   let marker2 = new maps.Marker(
     {
       position: mapData.sahibabad,
       map,
       title: 'Paras Prakashan (Sahibabad)'
     }
-  );
+  )
 }
 
 const Contact = (props) => {
@@ -90,7 +90,7 @@ const Contact = (props) => {
         </ScrollAnimation>
       </div>
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

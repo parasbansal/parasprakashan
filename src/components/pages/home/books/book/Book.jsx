@@ -60,7 +60,7 @@ const Book = (props) => {
         </div>
       </div>
     </ScrollAnimation>
-  );
+  )
 }
 
-export default Book;
+export default Book

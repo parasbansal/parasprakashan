@@ -9,7 +9,7 @@ const renderBooks = books => books.map((book, i) => {
 })
 
 const Books = (props) => {
-  const { books, labManuals, projectWork } = props;
+  const { books, labManuals, projectWork } = props
   return (
     <div className="books my-5">
       <div className="container">
@@ -35,7 +35,7 @@ const Books = (props) => {
         {renderBooks(projectWork)}
       </div>
     </div>
-  );
+  )
 }
 
-export default Books;
+export default Books

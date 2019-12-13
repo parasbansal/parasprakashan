@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 const About = (props) => {
@@ -76,7 +76,7 @@ const About = (props) => {
         </ScrollAnimation>
       </div>
     </div>
-  );
+  )
 }
 
-export default About;
+export default About

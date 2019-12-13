@@ -62,8 +62,8 @@ const renderCarouselItems = slides => slides.map((x, i) => {
 
 const Hero = (props) => {
 
-	const { books, labManuals } = props;
-	const allBooks = labManuals.concat(books);
+	const { books, labManuals } = props
+	const allBooks = labManuals.concat(books)
 
 	return (
 		<ScrollAnimation animateIn="slideInDown" animateOnce={true}>
