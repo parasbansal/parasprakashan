@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom"
+import { BrowserRouter as Router, Route, NavLink, Switch, Redirect } from "react-router-dom"
 
 import './Navbar.css'
 
@@ -48,8 +48,11 @@ class Navbar extends Component {
 						</div>
 					</nav>
 
-					<Route path="/" exact component={HomePage} />
-					<Route path="/about/" component={AboutPage} />
+					<Switch>
+						<Route path="/" exact component={HomePage} />
+						<Route path="/about/" component={AboutPage} />
+						<Route path="/*" render={() => (<Redirect to="/" />)} />
+					</Switch>
 				</div>
 			</Router>
 		)
