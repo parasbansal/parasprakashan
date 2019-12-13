@@ -20,14 +20,18 @@ const Books = (props) => {
         {renderBooks(labManuals)}
         <br />
         <br />
-        <h2 className="display-4">Books</h2>
+        <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+          <h2 className="display-4">Books</h2>
+        </ScrollAnimation>
         {renderBooks(books)}
         <br />
         <br />
-        <h2 className="display-4">Project Work</h2>
-        <h5>
-          माध्यमिक शिक्षा परिषद उ.प्र. द्वारा लागू सतत एवं व्यापक मूल्यांकन प्रणाली के अंतर्गत 30 अंकों के प्रायोगिक एवं आन्तरिक मूल्यांकन हेतु निर्धारित पाठ्यक्रम एवं अंक विभाजन पर आधारित
-        </h5>
+        <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+          <h2 className="display-4">Project Work</h2>
+          <h5>
+            माध्यमिक शिक्षा परिषद उ.प्र. द्वारा लागू सतत एवं व्यापक मूल्यांकन प्रणाली के अंतर्गत 30 अंकों के प्रायोगिक एवं आन्तरिक मूल्यांकन हेतु निर्धारित पाठ्यक्रम एवं अंक विभाजन पर आधारित
+          </h5>
+        </ScrollAnimation>
         {renderBooks(projectWork)}
       </div>
     </div>
