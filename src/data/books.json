@@ -1,7 +1,7 @@
 [
   {
     "image": "map_english",
-    "title": "Map Skills English",
+    "title": "Map English",
     "subTitle": "Atlas",
     "tableData": [
       {
@@ -18,7 +18,7 @@
   },
   {
     "image": "map_hindi",
-    "title": "Map Skills Hindi",
+    "title": "Map Hindi",
     "subTitle": "Atlas",
     "tableData": [
       {
@@ -52,7 +52,7 @@
   },
   {
     "image": "writing",
-    "title": "Writing",
+    "title": "Drawing",
     "subTitle": "Hindi",
     "tableData": [
       {
