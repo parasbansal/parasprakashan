@@ -1,44 +1,39 @@
-import React from 'react'
-import GoogleMapReact from 'google-map-react'
-import ScrollAnimation from 'react-animate-on-scroll'
+import React from "react";
+import GoogleMapReact from "google-map-react";
+import ScrollAnimation from "react-animate-on-scroll";
 
-import './Contact.css'
+import "./Contact.css";
 
 const mapData = {
   center: {
     lat: 28.6606259,
-    lng: 77.2974501
+    lng: 77.2974501,
   },
   zoom: 11,
   delhi: {
     lat: 28.6518138,
-    lng: 77.2294721
+    lng: 77.2294721,
   },
   sahibabad: {
     lat: 28.678622,
-    lng: 77.363745
-  }
-}
+    lng: 77.363745,
+  },
+};
 
 const renderMarkers = (map, maps) => {
-  let marker1 = new maps.Marker(
-    {
-      position: mapData.delhi,
-      map,
-      title: 'Paras Prakashan Head office'
-    }
-  )
-  let marker2 = new maps.Marker(
-    {
-      position: mapData.sahibabad,
-      map,
-      title: 'Paras Prakashan (Sahibabad)'
-    }
-  )
-}
+  new maps.Marker({
+    position: mapData.delhi,
+    map,
+    title: "Paras Prakashan Head office",
+  });
+  new maps.Marker({
+    position: mapData.sahibabad,
+    map,
+    title: "Paras Prakashan (Sahibabad)",
+  });
+};
 
 const Contact = (props) => {
-
   return (
     <div className="Contact mt-5" id="contact">
       <div className="container">
@@ -62,8 +57,14 @@ const Contact = (props) => {
                     <tr>
                       <td>Address</td>
                       <td>
-                        <div>2631/5, Shri Ram Market, Nai Sarak, Delhi - 110006<br /></div>
-                        <div>B-25, Shyampark Extension, Sahibabad - 201005 (Delhi-NCR)</div>
+                        <div>
+                          2631/5, Shri Ram Market, Nai Sarak, Delhi - 110006
+                          <br />
+                        </div>
+                        <div>
+                          B-25, Shyampark Extension, Sahibabad - 201005
+                          (Delhi-NCR)
+                        </div>
                       </td>
                     </tr>
                   </tbody>
@@ -75,22 +76,24 @@ const Contact = (props) => {
                   <h4 className="display-5">Map</h4>
                   <div className="map mt-3">
                     <GoogleMapReact
-                      bootstrapURLKeys={{ key: 'AIzaSyDZSRAOOelQpIyH39Kob7xsG8bWxwMa_SQ' }}
+                      bootstrapURLKeys={{
+                        key: "AIzaSyDZSRAOOelQpIyH39Kob7xsG8bWxwMa_SQ",
+                      }}
                       defaultCenter={mapData.center}
                       defaultZoom={mapData.zoom}
-                      onGoogleApiLoaded={({ map, maps }) => renderMarkers(map, maps)}
-                    >
-                    </GoogleMapReact>
+                      onGoogleApiLoaded={({ map, maps }) =>
+                        renderMarkers(map, maps)
+                      }
+                    />
                   </div>
                 </div>
               </ScrollAnimation>
-
             </div>
           </div>
         </ScrollAnimation>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
