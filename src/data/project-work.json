@@ -180,12 +180,7 @@
     "tableData": [
       {
         "title": "प्रोजेक्ट बुक (All subjects)",
-        "class": "IX",
-        "price": "60.00"
-      },
-      {
-        "title": "प्रोजेक्ट बुक (All subjects)",
-        "class": "X",
+        "class": "IX & X",
         "price": "60.00"
       }
     ]
