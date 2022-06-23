@@ -1,6 +1,6 @@
 {
   "name": "parasprakashan",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.2",
@@ -19,9 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "yarn build && netlify deploy",
-    "deploy:prod": "yarn build && netlify deploy --prod"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,8 +29,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "netlify-cli": "^2.6.0"
-  }
+  ]
 }
